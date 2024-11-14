@@ -1,0 +1,9 @@
+ attracted:1
+ cheated:1
+ focused:1
+ happy:2
+ surprise:1
+ independent:1
+ sad:1
+ fearful:2
+ adequate:1
