@@ -18,5 +18,4 @@ def plot_emotions(emotion_count_file):
     plt.show()
 
 
-# Run output generation when this file is executed
 plot_emotions('emotion_count.txt')
