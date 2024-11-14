@@ -15,14 +15,14 @@ def process_emotions(word_file, emotion_file):
             clear_line = line.replace('\n', '').replace(',', '').replace("'", '').strip()
             word, emotion = clear_line.split(':')
 
-            # Check if word is in the list of final words
+           
             if word in word_list:
                 emotion_list.append(emotion)
 
     # Count each emotion
     emotion_count = Counter(emotion_list)
 
-    # Save emotion counts to a file for the next script to use
+
     with open('emotion_count.txt', 'w') as f:
         for emotion, count in emotion_count.items():
             f.write(f"{emotion}:{count}\n")
